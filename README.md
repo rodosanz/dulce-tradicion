@@ -61,6 +61,64 @@ The application allows users to manage products, customers, sales, deliveries, p
 
 ---
 
+## 📸 Screenshots
+
+### Main Menu
+
+![Main Menu](screenshots/main_menu.png)
+
+The main dashboard provides quick access to all system modules, including orders, deliveries, purchases, products, customers, couriers, and reports.
+
+---
+
+### Reports Menu
+
+![Reports Menu](screenshots/reports_menu.png)
+
+Access different types of business reports, including daily reports, specific-date reports, date-range reports, profitability analysis, and inventory movement tracking.
+
+---
+
+### Sales Management
+
+![Sales Management](screenshots/sales_order.png)
+
+Create and manage customer orders with automatic total calculation, product editing, and order cancellation options.
+
+---
+
+### Purchase Management
+
+![Purchase Management](screenshots/purchase_management.png)
+
+Register purchases from suppliers and automatically update inventory levels.
+
+---
+
+### Inventory
+
+![Inventory](screenshots/inventory.png)
+
+View current inventory levels, purchase prices, selling prices, and stock availability.
+
+---
+
+### Daily Reports
+
+![Daily Report](screenshots/daily_reports.png)
+
+Analyze daily business performance, including revenue, profits, sales volume, and best-selling products.
+
+---
+
+### Inventory Movement History
+
+![Inventory Movements](screenshots/inventory_movements.png)
+
+Complete traceability of inventory operations, including purchases, sales, deliveries, adjustments, and cancellations.
+
+---
+
 ## 🛠 Technologies Used
 
 - Python
@@ -133,12 +191,13 @@ The application uses PostgreSQL and includes the following main entities:
 ## ⭐ Highlights
 
 - Automatic inventory control.
-- Home delivery order tracking.
-- Inventory movement history.
-- Profit reports.
-- Multiple status support for sales and deliveries.
-- Reliable data persistence using PostgreSQL.
-
+- Delivery management.
+- Profit tracking.
+- Historical movement records.
+- Sales and purchasing workflows.
+- Advanced reporting system.
+- PostgreSQL-based data persistence.
+  
 ---
 
 ## 👨‍💻 Author
