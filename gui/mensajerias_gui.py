@@ -190,6 +190,9 @@ def cambiar_estado():
         mensajerias.actualizar_mensajeria(mensajeria_id, 'mensajero_id', mensajero[0])
     elif select == "3":
         mensajerias.actualizar_mensajeria(mensajeria_id, 'estado', 'Entregado')
+        if not mensajeria_estado[6]:
+            mensajero = mensajeros_gui.buscar_mensajero(True)
+            mensajerias.actualizar_mensajeria(mensajeria_id, 'mensajero_id', mensajero[0])           
     elif select == "4":
         mensajerias.actualizar_mensajeria(mensajeria_id, 'estado', 'Cancelado')
         productos_mensajeria = mensajerias.listar_detalle_mensajerias(mensajeria_id)
